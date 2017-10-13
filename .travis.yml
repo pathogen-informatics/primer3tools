@@ -3,11 +3,10 @@ addons:
   apt:
     packages:
     - zlib1g-dev
-    - libbz2-dev
-    - liblzma-dev
-    - libcurl4-gnutls-dev
-    - libcurl4-nss-dev
-    - libcurl4-openssl-dev
+    - libblas-dev
+    - liblapack-dev
+    - libgfortran3
+    - libncurses5-dev
 python:
   - "3.4"
 sudo: false
