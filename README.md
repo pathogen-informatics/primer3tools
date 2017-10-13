@@ -122,3 +122,5 @@ across all input genomes. The columns are:
 
   [bowtie2]: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
   [primer3]: http://sourceforge.net/projects/primer3/
+
+Build status: [![Build Status](https://travis-ci.org/sanger-pathogens/primer3tools.svg?branch=master)](https://travis-ci.org/sanger-pathogens/primer3tools)
