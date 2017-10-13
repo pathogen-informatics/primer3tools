@@ -54,8 +54,9 @@ update_path () {
 
 pip3 install pysam
 
-update_path ${bowtie2_dir}
-update_path ${primer3_dir}
+update_path "${bowtie2_dir}"
+update_path "${primer3_dir}"
+update_path "${primer3_dir}/src"
 
 echo "Add the following line to your ~/.bashrc profile"
 echo "export PATH=${bowtie2_dir}:${primer3_dir}:${primer3_dir}/src:${PATH}"
